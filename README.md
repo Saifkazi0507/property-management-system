@@ -11,8 +11,6 @@ A simple Property Management System built using **Spring Boot** and an **H2 Data
 
 ## API Endpoints
 
-- `GET /api/v1/property/hello`: Returns a simple greeting message.
-- `GET /api/v1/property/project`: Provides a description of the project.
 - `POST /api/v1/property/properties`: Create a new property (with JSON data).
 - `GET /api/v1/property/properties`: Get a list of all properties.
 - `PUT /api/v1/property/properties/{id}`: Update a property's details.
